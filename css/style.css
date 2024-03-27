@@ -1,0 +1,1070 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(27, 23, 23);
+    padding: 0 20px;
+    text-decoration: none;
+}
+nav img{
+    padding: 5px;
+  
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    
+}
+.container li {
+    display: flex;
+    text-decoration: none;
+}
+.container a{
+    text-decoration: none;
+    margin-inline-start: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+.container li a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+li a{
+    position: relative;
+}
+li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    
+}
+nav img{
+    width: 5%;
+    height: 10%;
+}
+.container button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:5px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    outline: 0;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    background: #5c3e3e;
+
+}
+.container button:hover{
+    cursor: pointer;
+    background: blue;
+    color: white;
+}
+.content{
+ 
+    background:linear-gradient(rgba(0,0,0,0.9), rgba(0, 0,0, 0.9)), url('/css/btc.jpeg');
+    width: 100%;
+    height: 100%;
+}
+
+
+.content h1{
+    font-size: 50px;
+    font-weight: 700;
+   color: white;
+}
+.content span{
+    color:blue;
+}
+.sub-content{
+   display: flex;
+   justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+.sub-content img{
+display: block;
+position: relative;
+left: 50px;
+}
+
+.sub-content p{
+    color: white;
+    font-size: 20px;
+    
+}
+.sub-content button{
+    padding: 10px;
+    border-radius: 25px;
+    outline: 0;
+    border: 0;
+    margin: 10px;
+
+}
+.sub-content button a{
+    text-decoration: none;
+    color: black;
+    color: blue;
+}
+.sub-content button:hover{
+    background: #3a3a3a;
+    color: white;
+}
+
+.sub-hero{
+    background:linear-gradient(rgba(0,0,0,0.9), rgba(0, 0,0, 0.9)), url('/css/sis.webp');
+    background-size: cover;
+    
+}
+.sub-hero h1{
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Haettensch;
+}
+.sub-hero p{
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sub-hero span{
+    color: blue;
+}
+.set{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.set h2{
+    color: gold;
+}
+.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;  
+    background:#fff;
+    
+}
+.arrow{
+    margin-right: 20px;
+    background: #bdecff;
+    padding: 30px;
+    margin-top: 15px; 
+}
+.arrow:hover{
+    box-shadow: 300%;
+    box-shadow: 0 0 10px rgba(0, 0, 0.0); 
+    cursor: pointer;
+    
+}
+.arrow p{
+    text-align: center;
+}
+.arrow img{
+    border-radius: 50%;
+    margin-left: 35%;
+    bottom: 55px;
+    position: relative;
+    border: 5px solid white;
+    width: 70px;
+}
+.arrow1{
+    margin-right: 20px;
+    background: #bdecff;
+    padding: 30px;
+    margin-top: 15px;
+    
+}
+.arrow1:hover{
+    box-shadow: 300%;
+    box-shadow: 0 0 10px rgba(0, 0, 0.0); 
+    cursor: pointer;
+}
+.arrow1 p{
+    text-align: center;
+}
+.arrow1 img{
+    border-radius: 50%;
+    margin-left: 35%;
+    bottom: 55px;
+    position: relative;
+    border: 5px solid white;
+    width: 70px;
+}
+.arrow2{
+    margin-right: 20px;
+    background: #bdecff;
+    padding: 30px;
+    margin-top: 15px;
+  
+}
+.arrow2:hover{
+    box-shadow: 300%;
+    box-shadow: 0 0 10px rgba(0, 0, 0.0); 
+    cursor: pointer;
+    
+}
+.arrow2 p{
+    text-align: center;
+}
+.arrow2 img{
+    border-radius: 50%;
+    margin-left: 35%;
+    bottom: 55px;
+    position: relative;
+    border: 5px solid white;
+    width: 70px;
+}
+.arrow3{
+    margin-right: 20px;
+    background: #bdecff;
+    padding: 30px; 
+    margin-top: 15px;
+   
+}
+.arrow3:hover{
+    box-shadow: 300%;
+    box-shadow: 0 0 10px rgba(0, 0, 0.0); 
+    cursor: pointer;
+    
+}
+.arrow3 p{
+    text-align: center;
+}
+.arrow3 img{
+    border-radius: 50%;
+    margin-left: 35%;
+    bottom: 55px;
+    position: relative;
+
+    border: 5px solid white;
+    width: 70px;
+}
+#text{
+    background:#fff;
+    color: #3a3a3a;
+}
+#text h1{
+    text-align: center;
+    color: #3a3a3a;
+    
+    
+}
+#text  hr{
+    margin-right: 35%;
+    margin-left: 35%;
+    height: 3px;
+    background: blue;
+    margin-top: 5px;
+}
+.service{
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0, 0,0, 0.7)), url('/css/download.jpeg');
+    background-size: cover;
+    padding: 20px;
+      
+}
+.service h1{
+    text-align: center;
+    color: #fff;
+
+}
+.service hr{
+    margin-right: 45%;
+    margin-left: 45%;
+    height: 2px;
+    background: #fff;
+} 
+.g-service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.service-sub{
+    text-align: center;
+    color: #dfcbcb;
+
+}
+.service-sub h2{
+    margin: 10px;
+    color: white;
+}
+
+.service-sub:hover{
+    background-color: blueviolet;
+   
+}
+.service-sub img{
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.sub-service{
+    text-align: center;
+    color: #dfcbcb;
+}
+.sub-service img{
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 4px;
+}
+.sub-service h2{
+    margin: 10px;
+    color: white;
+}
+.sub-service:hover{
+    background-color: blueviolet;
+}
+
+.sub--service{
+    text-align: center;
+    color: #dfcbcb;
+}
+.sub--service img{
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 4px;
+}
+.sub--service h2{
+    margin: 10px;
+    color: white;
+}
+.sub--service:hover{
+    background-color: blueviolet;
+}
+
+.sub---service{
+    text-align: center;
+    color: #dfcbcb;
+}
+.sub---service h2{
+    margin: 10px;
+    color: white;
+}
+.sub---service:hover{
+    background-color: blueviolet;
+}
+.sub---service img{
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 4px;
+}
+.Team h1{
+   text-align: center;
+   
+}
+.sub-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding: 30px;
+    gap: 15px;
+    text-align: center;
+  
+}
+.Team hr{
+    margin-right: 45%;
+    margin-left: 45%;
+    height: 3px;
+    background: blue;
+    margin-top: 15px;
+}
+.main h2{
+    color: blue;
+}
+.main-main h2{
+    color: blue;
+}
+.another-main h2{ 
+    color: blue;
+}
+.dot-main h2{
+    color: blue; 
+}
+.contact{
+    background: #efefef;
+    padding: 50px;
+}
+.contact h1{
+    text-align: center;
+}
+.sub-all input{
+    display: block;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid #3a3a3a;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sub-all textarea{
+    margin-left: 30%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 40%;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.contact button{
+    margin-left: 30%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    border: 1px solid #3a3a3a;
+    cursor: pointer; 
+}
+.contact button:hover{
+    background: gold;
+}
+.footer{
+    background: #3a3a3a;
+    text-align: center;
+}
+.log{
+    
+    background:linear-gradient(rgba(0,0,0,0.9), rgba(0, 0,0, 0.9)), url('/css/tread.jpg');
+    padding: 15%;
+    overflow: hidden;
+    background-size: cover;
+    text-align: center;
+}
+.log h3{
+    color: #fff;
+    margin-top: 10px;
+}
+.log form{
+    background: transparent;
+     width: 500px;
+     display: block;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     margin-left: 30%;
+     border: 1px solid white;
+     
+    
+}
+.log form input{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24%;
+    margin-top: 5px;
+    border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 15px;
+}
+.log button{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.sign{
+    background:linear-gradient(rgba(0,0,0,0.9), rgba(0, 0,0, 0.9)), url('/css/tread.jpg');
+    text-align: center;
+    background-size: cover;
+    padding: 10%;
+    
+}
+.sign h3{
+    color: #fff;
+    margin-top: 10px;
+}
+.sign form{
+    background: transparent;
+    border: 1px solid white;
+      margin-top: 10px; 
+    width: 500px;
+     margin-left: 23%;
+}
+.sign form input{
+    display: block;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24%;
+    margin-top: 5px;
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 15px;
+    outline: 0;
+    border: 1px solid black;
+}
+.sign button{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+@media (min-width: px) {
+    nav{
+        display: block;
+        align-items: center;
+        background: rgb(27, 23, 23);
+        text-decoration: none;
+    }
+    nav img{
+    padding: 10px;
+    width: 20%;
+      
+    }
+    .container{
+        display: block;
+        justify-content: center;
+        
+        align-items: center;
+        text-decoration: none;
+        
+    }
+    .container li {
+        display: block;
+        text-decoration: none;
+    }
+    .container a{
+        text-decoration: none;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        color: #fff;
+        font-size: 10px;
+    }
+   
+    .container button{
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-top: 2px;
+        text-align: center;
+        outline: 0;
+        border: 0;
+        border-radius: 25px;
+        cursor: pointer;
+        background: #5c3e3e;
+        
+    
+    }
+    .container button:hover{
+        cursor: pointer;
+        background: blue;
+        color: white;
+    }
+    .content{
+     
+        background:linear-gradient(rgba(0,0,0,0.9), rgba(0, 0,0, 0.9)), url('/css/btc.jpeg');
+        width: 100%;
+        
+    }
+    
+    
+    .content h1{
+        font-size: 30px;
+        font-weight: 500;
+       color: white;
+    }
+    .content span{
+        color:blue;
+        font-size: 30px;
+    }
+    .sub-content{
+       display: block;
+        align-items: center;
+    }
+    .sub-content img{
+    display: block;
+    position: relative;
+    width: 150px;
+    margin-right: 10%;
+    } 
+    .sub-content p{
+        color: white;
+        font-size: 20px;
+    }
+    
+    .sub-content button{
+        padding: 10px;
+        border-radius: 25px;
+        outline: 0;
+        border: 0;
+        margin: 10px;
+    }
+    .sub-content button a{
+        text-decoration: none;
+        color: black;
+        color: blue;
+    }
+    .sub-content button:hover{
+        background: #3a3a3a;
+        color: white;
+    }
+    
+    .sub-hero{
+        background:linear-gradient(rgba(0,0,0,0.9), rgba(0, 0,0, 0.9)), url('/css/sis.webp');
+        background-size: cover;
+        
+    }
+    .sub-hero h1{
+        padding: 50px;
+        text-align: center;
+        color: #fff;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: Haettensch;
+    }
+    .sub-hero p{
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .sub-hero span{
+        color: blue;
+        
+    }
+    .set{
+        display: block;
+        align-items: center;   
+    }
+    .set img{
+        width:250px;
+    }
+    .set h2{
+        color: gold;
+        margin-right: 15px;
+    }
+    .test{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;  
+        background:#fff;
+        
+    }
+    .arrow{
+        margin-right: 20px;
+        background: #bdecff;
+        padding: 30px;
+        margin-top: 15px; 
+    }
+    .arrow:hover{
+        box-shadow: 300%;
+        box-shadow: 0 0 10px rgba(0, 0, 0.0); 
+        cursor: pointer;
+        
+    }
+    .arrow p{
+        text-align: center;
+    }
+    .arrow img{
+        border-radius: 50%;
+        margin-left: 30%;
+        bottom: 55px;
+        position: relative;
+        border: 5px solid white;
+        width: 60px;
+    }
+    .arrow1{
+        margin-right: 20px;
+        background: #bdecff;
+        padding: 30px;
+        margin-top: 30px;
+        
+    }
+    .arrow1:hover{
+        box-shadow: 300%;
+        box-shadow: 0 0 10px rgba(0, 0, 0.0); 
+        cursor: pointer;
+    }
+    .arrow1 p{
+        text-align: center;
+    }
+    .arrow1 img{
+        border-radius: 50%;
+        margin-left: 30%;
+        bottom: 55px;
+        position: relative;
+        border: 5px solid white;
+        width: 60px;
+    }
+    .arrow2{
+        margin-right: 20px;
+        background: #bdecff;
+        padding: 30px;
+        margin-top: 30px;
+      
+    }
+    .arrow2:hover{
+        box-shadow: 300%;
+        box-shadow: 0 0 10px rgba(0, 0, 0.0); 
+        cursor: pointer;
+        
+    }
+    .arrow2 p{
+        text-align: center;
+    }
+    .arrow2 img{
+        border-radius: 50%;
+        margin-left: 30%;
+        bottom: 55px;
+        position: relative;
+        border: 5px solid white;
+        width: 60px;
+    }
+    .arrow3{
+        margin-right: 20px;
+        background: #bdecff;
+        padding: 30px; 
+        margin-top: 30px;
+       
+    }
+    .arrow3:hover{
+        box-shadow: 300%;
+        box-shadow: 0 0 10px rgba(0, 0, 0.0); 
+        cursor: pointer;
+        
+    }
+    .arrow3 p{
+        text-align: center;
+    }
+    .arrow3 img{
+        border-radius: 50%;
+        margin-left: 30%;
+        bottom: 55px;
+        position: relative;
+        border: 5px solid white;
+        width: 60px;
+    }
+    #text{
+        background:#b34444;
+        color: #3a3a3a;
+        display: block;
+    }
+    #text h1{
+        text-align: center;
+        color: #3a3a3a;
+        
+        
+    }
+    #text  hr{
+        margin-right: 35%;
+        margin-left: 35%;
+        height: 3px;
+        background: blue;
+        margin-top: 5px;
+    }
+    .service{
+        background:linear-gradient(rgba(0,0,0,0.7), rgba(0, 0,0, 0.7)), url('/css/download.jpeg');
+        background-size: cover;
+        padding: 20px;
+          
+    }
+    .service h1{
+        text-align: center;
+        color: #fff;
+    
+    }
+    .service hr{
+        margin-right: 45%;
+        margin-left: 45%;
+        height: 2px;
+        background: #fff;
+    } 
+    .g-service{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+    }
+    
+    .service-sub{
+        text-align: center;
+        color: #dfcbcb;
+    
+    }
+    .service-sub h2{
+        margin: 10px;
+        color: white;
+    }
+    
+    .service-sub:hover{
+        background-color: blueviolet;
+       
+    }
+    .service-sub img{
+        width: 50px;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 4px;
+    }
+    
+    .sub-service{
+        text-align: center;
+        color: #dfcbcb;
+    }
+    .sub-service img{
+        width: 50px;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 4px;
+    }
+    .sub-service h2{
+        margin: 10px;
+        color: white;
+    }
+    .sub-service:hover{
+        background-color: blueviolet;
+    }
+    
+    .sub--service{
+        text-align: center;
+        color: #dfcbcb;
+    }
+    .sub--service img{
+        width: 50px;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 4px;
+    }
+    .sub--service h2{
+        margin: 10px;
+        color: white;
+    }
+    .sub--service:hover{
+        background-color: blueviolet;
+    }
+    
+    .sub---service{
+        text-align: center;
+        color: #dfcbcb;
+    }
+    .sub---service h2{
+        margin: 10px;
+        color: white;
+    }
+    .sub---service:hover{
+        background-color: blueviolet;
+    }
+    .sub---service img{
+        width: 50px;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 4px;
+    }
+    .Team h1{
+       text-align: center;
+       
+    }
+    .sub-team {
+        display: block;
+        justify-content: center;
+        align-items: center;   
+        padding: 30px;
+        gap: 15px;
+        text-align: center;
+      
+    }
+    .Team hr{
+        margin-right: 45%;
+        margin-left: 45%;
+        height: 3px;
+        background: blue;
+        margin-top: 15px;
+    }
+    .main h2{
+        color: blue;
+    }
+    .main-main h2{
+        color: blue;
+    }
+    .another-main h2{ 
+        color: blue;
+    }
+    .dot-main h2{
+        color: blue; 
+    }
+    .contact{
+        background: #efefef;
+        padding: 50px;
+    }
+    .contact h1{
+        text-align: center;
+    }
+    .sub-all input{
+        display: block;
+        justify-content: center;
+        margin-left: 30%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 40%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border: 1px solid #3a3a3a;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .sub-all textarea{
+        margin-left: 30%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        width: 40%;
+        padding-bottom: 20px;
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+    .contact button{
+        margin-left: 30%;
+        border-radius: 10px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-right: 5px;
+        border: 1px solid #3a3a3a;
+        cursor: pointer; 
+    }
+    .contact button:hover{
+        background: gold;
+    }
+    .footer{
+        background: #3a3a3a;
+        text-align: center;
+    }
+    .log{
+        
+        background:linear-gradient(rgba(0,0,0,0.9), rgba(0, 0,0, 0.9)), url('/css/tread.jpg');
+        padding: 15%;
+        overflow: hidden;
+        background-size: cover;
+        text-align: center;
+    }
+    .log h3{
+        color: #fff;
+        margin-top: 10px;
+    }
+    .log form{
+        background: transparent;
+         width: 500px;
+         display: block;
+         text-align: center;
+         justify-content: center;
+         align-items: center;
+         margin-left: 30%;
+         border: 1px solid white;
+         
+        
+    }
+    .log form input{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-left: 24%;
+        margin-top: 5px;
+        border-top-left-radius: 30px;
+       border-top-right-radius: 30px;
+        padding: 10px;
+        width: 60%;
+        margin-bottom: 15px;
+    }
+    .log button{
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+    .sign{
+        background:linear-gradient(rgba(0,0,0,0.9), rgba(0, 0,0, 0.9)), url('/css/tread.jpg');
+        text-align: center;
+        background-size: cover;
+        padding: 10%;
+        
+    }
+    .sign h3{
+        color: #fff;
+        margin-top: 10px;
+    }
+    .sign form{
+        background: transparent;
+        border: 1px solid white;
+          margin-top: 10px; 
+        width: 500px;
+         margin-left: 23%;
+    }
+    .sign form input{
+        display: block;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 24%;
+        margin-top: 5px;
+        padding: 10px;
+        width: 60%;
+        margin-bottom: 15px;
+        outline: 0;
+        border: 1px solid black;
+    }
+    .sign button{
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+
+   
+    
+}
